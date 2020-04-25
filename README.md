@@ -8,4 +8,4 @@ Data Acqusition System model: is based on a data acquisition system connected to
 
 Check [zsomoTech](https://sites.google.com/view/zsomotech/home) website for other project and contact info.
 
-![zsomoTech logo] (/resources/zsomoTechLogo150px.png?raw=true)
+![zsomoTech logo](/resources/zsomoTechLogo150px.png?raw=true)
