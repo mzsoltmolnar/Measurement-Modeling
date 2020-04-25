@@ -6,4 +6,4 @@ Model descriptions
 
 Data Acqusition System model: is based on a data acquisition system connected to a PC. This collects data from 3 different inputs: strain gauge interface, 10x divider input and 2x multiplier input. The divider and multiplier modules receive the same amplitude sine wave, hence their different behavior can be observed. The strain gauge interface receives the input voltage from strain gauges mounted on a steel plate, which is loaded by masses. By changing the number of masses on the steel plate, the measured output voltage of the strain gauges changes accordingly.
 
-Check the [zsomoTech](https://sites.google.com/view/zsomotech/home) website for other project and contact info.
+Check [zsomoTech](https://sites.google.com/view/zsomotech/home) website for other project and contact info.
