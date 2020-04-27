@@ -5,11 +5,12 @@ Because of the lockdown caused by COVID-19 outbreak, the labs at the university 
 #### Target framework: .NET Framework 4.6.1
 
 #### Description and executables available in the [executables folder](https://github.com/zsoltmo/Measurement-Modeling/tree/master/executables)
+ 
+ 
+ 
+Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for contact info.
 
-
-<p align="center"> Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for contact info. </p>
-
-<p align="center">
+<p align="left">
 <img width=100 height=100 src="/resources/zsomoTechLogo150px.png">
 </p>
  
