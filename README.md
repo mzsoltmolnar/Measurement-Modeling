@@ -7,8 +7,8 @@ Because of the lockdown caused by COVID-19 outbreak, the labs at the university 
 #### Description and executables available in the [executables folder](https://github.com/zsoltmo/Measurement-Modeling/tree/master/executables)
  
  
- 
-Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for contact info.
+
+Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for contact info and future projects!
 
 <p align="left">
 <img width=100 height=100 src="/resources/zsomoTechLogo150px.png">
