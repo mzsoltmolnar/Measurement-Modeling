@@ -12,6 +12,11 @@ Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for cont
 <img width=80% height=80% src="/resources/screenshots/solarModule.jpg">
 </p>
 
+### Optical Sensor.exe - Optical sensor measurement modeling
+<p align="center">
+<img width=80% height=80% src="/resources/screenshots/opticalSens.jpg">
+</p>
+
 ### Pressure Transducer.exe - Pressure transducer measurement modeling
 <p align="center">
 <img width=80% height=80% src="/resources/screenshots/pressureTransducer.jpg">
@@ -20,6 +25,11 @@ Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for cont
 ### Capacitive Sensor.exe - Capacitive sensor measurement modeling
 <p align="center">
 <img width=80% height=80% src="/resources/screenshots/capacitiveSens.jpg">
+</p>
+
+### Temperature Measurement.exe - Temperature sensor measurement modeling
+<p align="center">
+<img width=80% height=80% src="/resources/screenshots/tempMeasurement.jpg">
 </p>
 
 ### Ultrasonic Sensor.exe - Ultrasonic sensor measurement modeling
