@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA2F5EDF-4DD2-42E1-98B0-7860ACDA79A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InductiveSens</RootNamespace>
+    <AssemblyName>Inductive Sensor</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasurementData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\annotation.jpg" />
+    <None Include="Resources\scene_0100.jpg" />
+    <None Include="Resources\scene_0099.jpg" />
+    <None Include="Resources\scene_0098.jpg" />
+    <None Include="Resources\scene_0097.jpg" />
+    <None Include="Resources\scene_0096.jpg" />
+    <None Include="Resources\scene_0095.jpg" />
+    <None Include="Resources\scene_0094.jpg" />
+    <None Include="Resources\scene_0093.jpg" />
+    <None Include="Resources\scene_0092.jpg" />
+    <None Include="Resources\scene_0091.jpg" />
+    <None Include="Resources\scene_0090.jpg" />
+    <None Include="Resources\scene_0089.jpg" />
+    <None Include="Resources\scene_0088.jpg" />
+    <None Include="Resources\scene_0087.jpg" />
+    <None Include="Resources\scene_0086.jpg" />
+    <None Include="Resources\scene_0085.jpg" />
+    <None Include="Resources\scene_0084.jpg" />
+    <None Include="Resources\scene_0083.jpg" />
+    <None Include="Resources\scene_0082.jpg" />
+    <None Include="Resources\scene_0081.jpg" />
+    <None Include="Resources\scene_0080.jpg" />
+    <None Include="Resources\scene_0079.jpg" />
+    <None Include="Resources\scene_0078.jpg" />
+    <None Include="Resources\scene_0077.jpg" />
+    <None Include="Resources\scene_0076.jpg" />
+    <None Include="Resources\scene_0075.jpg" />
+    <None Include="Resources\scene_0074.jpg" />
+    <None Include="Resources\scene_0073.jpg" />
+    <None Include="Resources\scene_0072.jpg" />
+    <None Include="Resources\scene_0071.jpg" />
+    <None Include="Resources\scene_0070.jpg" />
+    <None Include="Resources\scene_0069.jpg" />
+    <None Include="Resources\scene_0068.jpg" />
+    <None Include="Resources\scene_0067.jpg" />
+    <None Include="Resources\scene_0066.jpg" />
+    <None Include="Resources\scene_0065.jpg" />
+    <None Include="Resources\scene_0064.jpg" />
+    <None Include="Resources\scene_0063.jpg" />
+    <None Include="Resources\scene_0062.jpg" />
+    <None Include="Resources\scene_0061.jpg" />
+    <None Include="Resources\scene_0060.jpg" />
+    <None Include="Resources\scene_0059.jpg" />
+    <None Include="Resources\scene_0058.jpg" />
+    <None Include="Resources\scene_0057.jpg" />
+    <None Include="Resources\scene_0056.jpg" />
+    <None Include="Resources\scene_0055.jpg" />
+    <None Include="Resources\scene_0054.jpg" />
+    <None Include="Resources\scene_0053.jpg" />
+    <None Include="Resources\scene_0052.jpg" />
+    <None Include="Resources\scene_0051.jpg" />
+    <None Include="Resources\scene_0050.jpg" />
+    <None Include="Resources\scene_0049.jpg" />
+    <None Include="Resources\scene_0048.jpg" />
+    <None Include="Resources\scene_0047.jpg" />
+    <None Include="Resources\scene_0046.jpg" />
+    <None Include="Resources\scene_0045.jpg" />
+    <None Include="Resources\scene_0044.jpg" />
+    <None Include="Resources\scene_0043.jpg" />
+    <None Include="Resources\scene_0042.jpg" />
+    <None Include="Resources\scene_0041.jpg" />
+    <None Include="Resources\scene_0040.jpg" />
+    <None Include="Resources\scene_0039.jpg" />
+    <None Include="Resources\scene_0038.jpg" />
+    <None Include="Resources\scene_0037.jpg" />
+    <None Include="Resources\scene_0036.jpg" />
+    <None Include="Resources\scene_0035.jpg" />
+    <None Include="Resources\scene_0034.jpg" />
+    <None Include="Resources\scene_0033.jpg" />
+    <None Include="Resources\scene_0032.jpg" />
+    <None Include="Resources\scene_0031.jpg" />
+    <None Include="Resources\scene_0030.jpg" />
+    <None Include="Resources\scene_0029.jpg" />
+    <None Include="Resources\scene_0028.jpg" />
+    <None Include="Resources\scene_0027.jpg" />
+    <None Include="Resources\scene_0026.jpg" />
+    <None Include="Resources\scene_0025.jpg" />
+    <None Include="Resources\scene_0024.jpg" />
+    <None Include="Resources\scene_0023.jpg" />
+    <None Include="Resources\scene_0022.jpg" />
+    <None Include="Resources\scene_0021.jpg" />
+    <None Include="Resources\scene_0020.jpg" />
+    <None Include="Resources\scene_0019.jpg" />
+    <None Include="Resources\scene_0018.jpg" />
+    <None Include="Resources\scene_0017.jpg" />
+    <None Include="Resources\scene_0016.jpg" />
+    <None Include="Resources\scene_0015.jpg" />
+    <None Include="Resources\scene_0014.jpg" />
+    <None Include="Resources\scene_0013.jpg" />
+    <None Include="Resources\scene_0012.jpg" />
+    <None Include="Resources\scene_0011.jpg" />
+    <None Include="Resources\scene_0010.jpg" />
+    <None Include="Resources\scene_0009.jpg" />
+    <None Include="Resources\scene_0008.jpg" />
+    <None Include="Resources\scene_0007.jpg" />
+    <None Include="Resources\scene_0006.jpg" />
+    <None Include="Resources\scene_0005.jpg" />
+    <None Include="Resources\scene_0004.jpg" />
+    <None Include="Resources\scene_0003.jpg" />
+    <None Include="Resources\scene_0002.jpg" />
+    <None Include="Resources\scene_0001.jpg" />
+    <None Include="Resources\about-logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
