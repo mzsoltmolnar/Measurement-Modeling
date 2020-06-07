@@ -38,17 +38,19 @@ The temperature measurement models the behavior of three different temperature s
 </p>
 
 ### Ultrasonic Sensor.exe - Ultrasonic sensor measurement modeling
-
+During the ultrasonic sensor measurement, the sensing range change of the sensor for different target material is determined.
 <p align="center">
 <img width=80% height=80% src="/resources/screenshots/ultrasonicSens.jpg">
 </p>
 
 ### Strain Gauge.exe - Strain gauge measurement modeling
+Using strain gauges mounted on a steel plate by applying force on the plate's one end, different characteristics of the strain gauges can be determined.
 <p align="center">
 <img width=80% height=80% src="/resources/screenshots/strainGauge.jpg">
 </p>
 
 ### Data Acquisition System.exe - Data acquisition system measurement modeling
+The strain gauge input and data output of a data acquisition system is modeled. Three different channels can be selected. One channel displays the output values of a strain gauge system. The elongations of the strain gauges can be modified by placing a different number of weights on the steel plate. The DAQ system has two other channels, which receive the input voltage from the same signal source. One channel has a 10x divider, and the other a 2x multiplier input. The goal is to determine if the measured values satisfy the criteria that they are connected to the same signal source.
 <p align="center">
 <img width=80% height=80% src="/resources/screenshots/daqSystem.jpg">
 </p>
