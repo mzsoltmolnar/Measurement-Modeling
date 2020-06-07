@@ -13,7 +13,7 @@ namespace solarCell
 {
     public partial class MainForm : Form
     {
-        Measurement measMent = new Measurement(); // measirement object - defining the properties of the solar cell
+        Measurement measMent = new Measurement(); // measurement object - defining the properties of the solar cell
 
         public MainForm()
         {
