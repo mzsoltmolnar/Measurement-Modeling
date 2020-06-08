@@ -12,7 +12,7 @@ namespace CapacitiveSens
 {
     public partial class MainForm : Form
     {
-        Measurement measMent = new Measurement();// measurement object - defining the properties of the capacitive sensor
+        Measurement measMent = new Measurement(); // measurement object - defining the properties of the capacitive sensor
 
         public MainForm()
         {
