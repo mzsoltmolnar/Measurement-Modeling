@@ -8,8 +8,6 @@ Because of the lockdown caused by COVID-19 outbreak, the labs at the university 
  
  
 
-Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for contact info and future projects!
-
 <p align="left">
 <img width=100 height=100 src="/resources/zsomoTechLogo150px.png">
 </p>
