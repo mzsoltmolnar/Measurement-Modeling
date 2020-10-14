@@ -10,6 +10,7 @@ Because of the lockdown caused by COVID-19 outbreak, the labs at the university 
 
 ## Target framework
 - .NET Framework 4.6.1
+- Compiled with Microsoft Visual Studio Community 2017 - Version 15.9.1 
 
 
 
