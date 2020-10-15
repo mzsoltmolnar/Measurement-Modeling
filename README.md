@@ -16,4 +16,5 @@ Because of the lockdown caused by COVID-19 outbreak, the labs at the university 
 
 ## Description and executables available in the [bin folder](https://github.com/zsoltmo/Measurement-Modeling/tree/master/bin)
 
+#### For more projects and research, visit my website: https://mzsoltmolnar.github.io/
  
