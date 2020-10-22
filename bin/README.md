@@ -1,5 +1,7 @@
 ### Target framework: .NET Framework 4.6.1
-Visit [zsomoTech](https://sites.google.com/view/zsomotech/home) website for contact info and future projects!
+
+#### Watch a demo video [about the measurement models.](https://youtu.be/Uvth-PDN3w4)
+
 
 ### Inductive Sensor.exe - Induvtive sensor measurement modeling
 During the inductive sensor measurement, the supply voltage-sensing distance correlation is examined using steel and aluminum targets.
